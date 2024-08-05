@@ -6,3 +6,6 @@ def index(request):
 
 def vivian(request):
     return render(request, 'alunas/vivian.html')
+
+def victoria(request):
+    return render(request, 'alunas/victoria.html')
